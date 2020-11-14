@@ -1,0 +1,15 @@
+.select-none {
+    -webkit-user-select: none;
+}
+.color-5B {
+    color: #5B5B5B;
+}
+.bg-color-F9 {
+    background-color: #F9F9F9;
+}
+.font-size-28 {
+    font-size: 28px;
+}
+.font-size-20 {
+    font-size: 20px;
+}

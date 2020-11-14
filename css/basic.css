@@ -1,0 +1,190 @@
+*, *::after, *::before {
+    box-sizing: border-box; 
+    font-family: "Roboto";
+}
+
+.pageContainer {
+    max-width: 1920px;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+
+/* ------------------------------- HEADER ---------------------- */
+header:first-child {
+    height: 141px;
+    background-color: #000;
+    position: relative;
+
+}
+.upperHeader {
+    /* border: 1px solid white; */
+    height: 91px;
+}
+.upperHeader > .col-4 {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+.headerMenuIcon {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 139px;
+    top: 27px;
+    cursor: pointer;
+}
+.containerUser {
+    position: relative;
+    width: 86px;
+    cursor: pointer;
+    
+}
+.userSpan, .shoppingSpan {
+    font-size: 16px;
+    color: white;
+    width: 86px;
+    height: 21px;
+    position: absolute;
+}
+.userSpan {
+    top: 40px;
+    left: 5px;
+}
+.shoppingSpan {
+    top: 40px;
+    left: 17px;
+}
+/* TO FINISH IN JAVASCRIPT. SCRIPT WHEN SOMEONE ADD SOMETHING TO SHOPPING BAG */
+.shoppingSpan::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #2A971E;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    right: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.bottomHeader {
+    height: 50px;
+}
+.navHelpContact {
+    font-size: 20px;
+    position: relative;
+    left: 230px;
+}
+.headerLanguage > span {
+    color: white;
+    font-weight: bold;
+}
+.headerLanguage > img {
+    position: relative;
+    top: -7px;
+    left: 5px;
+    cursor: pointer;
+}
+.headerLanguage > span:last-child {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+/*  ------------------------- NAVIGATION ----------------------------- */
+ #navUpper {
+    height: 82px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.navigationButtons {
+    position: relative;
+}
+.navigationButtons > span {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    color: #585858;
+    border: 1px solid white;
+    margin: 15px;
+    cursor: pointer;
+} 
+.navigationButtons > span:first-child {
+    margin-left: 150px;
+}
+.navigationSearchCol {
+    position: relative;
+}
+.navigationSearch {
+    max-width: 237px;
+    height: 41px;
+    border-bottom: 1px solid #707070;
+    padding-left: 50px;
+}
+.navigationSearchPlaceholder::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 5px;
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/search.png);
+}
+.navigationSearchPlaceholder {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 10px;
+    z-index: 0;
+}
+
+/*  ------------------------- FOOTER ----------------------------- */
+
+footer {
+    height: 476px;
+    background-color: #333232;
+    color: #EBFFEB;
+    font-size: 18px;
+    position: relative;
+    margin-top: 100px;
+}
+footer > div:first-child {
+    width: 960px;
+    height: 320px;
+}
+.footerLinks> a, .footerTermsLinks> a {
+    text-decoration: none;
+    color: #EBFFEB;
+}
+.footerLinks> a {
+    display: block;
+    padding-bottom: 20px;
+}
+.footerTermsLinks> a {
+    padding-right: 140px;
+}
+.footerLinks {
+    width: 240px;
+    height: 220px;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+.footerTermsLinks {
+    padding-left: 140px;
+}
+.footerCards {
+    width: 700px;
+    height: 366px;
+    color: black;
+    position: absolute;
+    right: 100px;
+    top: -100px;
+    margin-left: 50px;
+}
+.footerCards > .card {
+    border-radius: 3%;
+}
