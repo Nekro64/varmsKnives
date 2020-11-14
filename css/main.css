@@ -1,9 +1,10 @@
 
 /* ______________________________LOGO BANER HEADER___________________________________________ */
+
+
 .logoBaner {
     height: 842px;
     background-image: url(../img/logoBaner.png);
-    background-size: 1940px;
     background-position-x: -10px;
     background-repeat: no-repeat;
 }
@@ -11,6 +12,9 @@
     margin-top: 80px;
     padding: 30px;
     width: 750px;
+}
+.logobanerProductInfo {
+    padding-left: 50%;
 }
 .logobanerProductInfo > h1 {
     font-size: 96px;
@@ -39,9 +43,6 @@
     background-repeat: no-repeat;
     position: absolute;
 }
-
-
-
 /* ________________________________NAVIGATIONS PRODUCTS___________________________________ */
 
 .navProducts {
@@ -66,8 +67,6 @@
     padding-top: 0;
 
 }
-
-
 /* ________________________________PRODUCT SLIDER__________________________________________ */
 #productCarouselSliderContainer {
     height: 800px;
@@ -86,6 +85,7 @@
     width: 400px;
     height: 500px;
     border: none;
+    background-color: transparent;
 }
 #productCarouselSliderContainer .card-body {
     position: relative;
@@ -158,4 +158,67 @@
 }
 .inputCounter {
     height: 30px;
+}
+
+
+
+
+@media (max-width: 1500px) {
+    .logobanerProductInfo > h1 {
+        margin-left: 200px;
+        font-size: 72px;
+    }
+    .logobanerProductInfo > p {
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .logoBanerProductButton {
+        zoom: 0.89;
+    }
+
+    #blogSection .card {
+        width: 250px;
+        height: 300px;
+    }
+    #productCarouselSliderContainer {
+        height: 550px;
+    }
+    #productCarouselSliderContainer .card {
+        zoom: 0.6;
+        height: 100%;
+    } 
+    #productCarouselSliderContainer .card-body {
+        zoom: 1.2;
+    }
+}
+@media (max-width: 1100px) {
+    .logobanerProductInfo > h1 {
+        width: 550px;
+        margin-left: 350px;
+        font-size: 72px;
+    }
+    .logobanerProductInfo > p {
+        margin-left: 350px;
+        width: 550px;
+        font-size: 20px;
+    }
+    .logoBanerProductButton {
+        zoom: 0.69;
+        margin-bottom: 100px;
+        
+    }
+    #productCarouselSliderContainer {
+        height: 450px;
+    }
+    #productCarouselSliderContainer .card {
+        zoom: 0.4;
+        height: 100%;
+    }
+    #productCarouselSliderContainer .card-body {
+        zoom: 1.5;
+    }
+    #blogSection .card {
+        width: 150px;
+        height: 300px;
+    }
 }
