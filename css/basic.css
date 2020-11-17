@@ -104,7 +104,7 @@ header:first-child {
 .navigationButtons {
     position: relative;
 }
-.navigationButtons > span {
+.navigationButtons span {
     width: 120px;
     height: 50px;
     font-size: 24px;
@@ -113,8 +113,11 @@ header:first-child {
     margin: 15px;
     cursor: pointer;
 } 
-.navigationButtons > span:first-child {
+.navigationButtons  a:first-child {
     margin-left: 150px;
+}
+.navigationButtons a {
+    text-decoration: none;
 }
 .navigationSearchCol {
     position: relative;

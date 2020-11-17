@@ -1,0 +1,56 @@
+#blogPageSection .blogPageCards {
+    min-height: 500px;
+    border: 1px solid rgb(63, 20, 20);
+   
+}
+#blogPageSection .blogPageCards:last-child {
+    border-bottom: none;
+    margin-bottom: 150px;
+}
+#blogPageSection .card {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #C1C1C1;
+    
+}
+#blogPageSection .blogCardPhoto {
+    height: 400px;
+    padding: 50px;
+} 
+#blogPageSection .blogCardPhoto > img {
+    max-width: 550px;
+    height: 100%;
+}
+#blogPageSection .card-body {
+    min-width: 400px;
+    height: 100%;
+}
+#blogPageSection .card-text {
+    min-height: 100px;    
+    max-height: 300px;
+    overflow-y: scroll;
+}
+#blogPageSection .card-text::-webkit-scrollbar {
+    display: none;
+}
+#blogPageSection .seeMore {
+    zoom: 0.8;
+    margin-top: 50px;
+}
+#blogPageSection .seeMore:hover {
+    color: black;
+}
+@media (max-width: 770px) {
+    #blogPageSection .blogCardPhoto > img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 350px) {
+    * {
+        zoom: 4;
+    }
+}
