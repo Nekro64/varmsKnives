@@ -1,0 +1,9 @@
+.togglePass {
+    right: 10px;
+    top: 64px;
+    height: 27px;
+    border-radius: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
+}
