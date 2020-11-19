@@ -1,6 +1,9 @@
 .select-none {
     -webkit-user-select: none;
 }
+.display-none {
+    display: none;
+}
 .color-5B {
     color: #5B5B5B;
 }
